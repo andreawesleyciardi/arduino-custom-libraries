@@ -1,0 +1,202 @@
+Born in Sao Paulo, Brasil.
+Grew up in Milan, Italy.
+Based in Athens, Greece.
+Almost two decades of professional working experience in Web Development.
+Passionate and focused on keep up with the evolution of web technologies.
+Self motivated team player with proven mentoring and leading skills.
+
+Skills
+
+React proficiency
+UI and UX principles
+Mobile-first approach
+Continuous deployment
+Problem-solving
+Team leadership
+
+Work Experience
+
+Senior Frontend Developer, Sitecore
+Athens, Greece (Remote) |September 2024 - Current
+Bla bla bla
+
+
+Senior Frontend Developer, OSeven Telematics
+Athens, Greece (Remote) |May 2016 - August 2024
+B2B Product-Focused Insurtech.
+
+Spearheaded the development of a fully responsive, cross-browser compatible web portal integrating Google and proprietary APIs, with a strong emphasis on intuitive UX and high interactivity.
+From January 2020, led a cross-functional Agile team (Frontend, Backend, QA), driving sprint planning, code reviews, and CI/CD pipelines using Git, Jira, Microsoft Teams, and Scrum methodology.
+From 2019, modernized the UBI (Usage-Based Insurance) web platform by migrating legacy code to a scalable ReactJS architecture, leveraging React Query, Sass, React Bootstrap, Webpack, and Yarn for enhanced performance and maintainability.
+From May 2016, Engineered the original UBI portal using AngularJS, HTML5, Less, Bootstrap 3, Grunt, CoffeeScript, and NPM, laying the foundation for data-driven insurance analytics.
+Implemented robust automated testing with Cypress and React Testing Library, enabling seamless Continuous Integration and Deployment workflows across environments.
+
+
+Senior Frontend Developer (Consultant), Trading Point - XM
+Athens, Greece (Remote) |January 2023 - July 2023
+Global Forex & CFD Brokerage.
+
+Architected Katana, a bespoke UI component library built on top of Kendo UI, designed to standardize and streamline the user interface across all internal web applications.
+Conducted a comprehensive audit of existing frontend systems to extract design patterns and functional requirements, translating findings into detailed technical specifications for scalable component development.
+Engineered a suite of reusable, themeable React + TypeScript components using Styled Components, optimized for consistency, accessibility, and performance.
+Integrated robust unit testing with Jest, ensuring reliability and smooth adoption across legacy and modern projects.
+Championed interactive documentation via Storybook, enabling seamless collaboration between design and development teams and accelerating onboarding for new engineers.
+Tech Stack: React, TypeScript, Styled Components, Kendo UI, Jest, Storybook
+
+
+Senior Frontend Developer (Consultant), I6 Systems
+London (Fully Remote From Athens) |February 2022 - December 2022
+Aviation Fuel Supply Chain Digitization.
+
+Led the frontend refactoring of I6’s legacy fuel management portal, one of five core products, modernizing its architecture and delivering a refreshed UI/UX to enterprise clients under an accelerated release timeline.
+Adopted a Continuous Deployment strategy to enable rapid iteration and customer feedback loops, ensuring early validation and faster time-to-value.
+Collaborated across frontend teams (9+ developers) to align on company-wide standards, design patterns, and shared component architecture, fostering consistency across all web platforms.
+Co-developed a centralized custom component library using React + Material UI, enabling scalable reuse and reducing development overhead across projects.
+Championed automated testing practices with React Testing Library, ensuring robust coverage and smooth CI/CD integration.
+Tech Stack: Next.js, React.js, Sass, Material UI, Webpack, Yarn, React Testing Library
+Agile Methodology: Scrum, with active participation in sprint planning, cross-team syncs, and code reviews.
+
+
+Frontend Developer, SpotMechanic
+Athens |January 2016 - April 2016
+Used Car Inspection Platform.
+
+Translated high-level product concepts from the CEO into actionable technical requirements, delivering a fully functional mobile-first demo web app tailored for private car buyers seeking pre-purchase vehicle inspections.
+Designed and implemented the frontend architecture using AngularJS, Bootstrap 3, and Less, integrating with custom RESTful APIs to support real-time inspection data and analytics.
+Streamlined development workflows with Grunt and NPM, and managed project tasks and version control using Trello and Git, ensuring transparency and agility throughout the build process.
+Focused on rapid prototyping and user-centric design to validate core business ideas and accelerate stakeholder feedback cycles.
+
+
+Frontend Developer, Wide Side
+Milan |July 2015 - December 2015
+For "CheBanca!" - Digital Banking Division of Mediobanca.
+
+Collaborated within a large, globally distributed frontend team to deliver a fully responsive, mobile-first web portal for CheBanca!’s next-generation e-banking platform, ensuring seamless cross-browser compatibility and accessibility.
+Prioritized cybersecurity best practices throughout the development lifecycle, implementing secure coding standards to protect sensitive financial data and meet compliance requirements.
+Took ownership of a critical architectural upgrade: refactored the AngularJS codebase to transition from basic single-layer routing to a multi-layer ngRouting structure, unlocking advanced navigation capabilities and improving maintainability.
+Tech Stack: AngularJS, Bootstrap 3, Less, Git, Trello
+Agile Collaboration: Daily syncs with international teams, focused on aligning UI/UX standards and secure development protocols.
+
+
+Frontend Developer, CGM Consulting
+Milan |March 2015 - June 2015
+For "Credito Emiliano" - Digital Banking Platform.
+
+Joined a compact, fast-paced frontend team during the final development phase of Credito Emiliano’s mobile-first e-banking portal, contributing to a successful on-time launch despite tight deadlines and high delivery pressure.
+Developed a fully responsive, cross-browser compatible interface using AngularJS, Bootstrap 3, and Less, integrating with custom RESTful APIs to support secure financial transactions and user account management.
+Prioritized cybersecurity best practices, ensuring compliance with industry standards for handling sensitive banking data throughout the frontend implementation.
+Streamlined build and deployment processes using Grunt and NPM, and collaborated closely with backend and QA teams to ensure stability and performance across devices.
+
+
+Full Stack Developer, Zero2032
+Milan |December 2014 - April 2015
+Designed and implemented website for new business, collecting ideas and feedbacks directly from the founding members.
+Utilizing interactive forms the website offers the possibility to users to request and book appointments for dental care services.
+Used MySQL database, PHP for build custom APIs and AngularJS, Less, Bootstrap 3, Grunt and NPM for Frontend.
+Because the website needed to be highly ranked in Google searches, "dynamic rendering" has been implemented using Prerender.io.
+
+
+Frontend Developer, One4
+Milan |July 2014 - February 2015
+For "Acemill" - Finance platform.
+
+Designed and implemented the public-facing website for Milan’s premier annual economic convention salonedelrisparmio.com, collaborating within a lean team. Leveraged Liferay CMS for content management and built responsive interfaces using HTML5, CSS3, and jQuery, optimizing for performance and accessibility across devices.
+For "Beta80" – Business Convention Social Network.
+
+Engineered a bespoke social networking platform to connect attendees ahead of a major business convention. Developed with AngularJS, Bootstrap 3, and Less, integrating custom RESTful APIs and automating workflows via Grunt and NPM. Focused on user engagement, scalability, and seamless UX across browsers.
+For "Monte dei Paschi di Siena" – Digital Banking Platform.
+
+Joined a large-scale development team during the final phase of a responsive e-banking portal rollout. Specialized in pixel-perfect UI refinement, translating high-fidelity mockups into production-ready styles using advanced CSS3 techniques. Ensured full cross-browser compatibility and visual consistency across the platform.
+
+
+Frontend Developer, Modis
+Milan |February 2014 - July 2014
+For "Nexus Advanced Technologies Srl" - Automotive Monitoring Solutions.
+
+Collaborated within a lean development team to build a responsive web portal for real-time vehicle monitoring, enabling data visualization and tracking for fleet and individual car diagnostics.
+Developed the frontend architecture using JavaScriptMVC, HTML5, Less, and Bootstrap 3, integrating Google APIs to support geolocation and mapping features.
+Focused on clean UI design and modular code structure to ensure scalability and maintainability across future product iterations.
+Contributed to agile task management and version control using Git, supporting rapid prototyping and iterative delivery.
+
+
+Frontend Developer, Avanade Italia
+Milan |February 2013 - January 2014
+For "Cariparma (Crédit Agricole Group) - Digital Banking Platform.
+
+Collaborated within a compact development team to build the bank’s public-facing website conti.credit-agricole.it, integrating SharePoint with ASP.NET and C# for dynamic content delivery. Focused on responsive UI using HTML5, CSS3, Ajax, and jQuery, ensuring cross-browser compatibility and secure data handling.
+For "ABB" - Industrial Automation.
+
+Developed the Italian public portal new.abb.com/it using JavaScriptMVC, Bootstrap 2, and Ajax, delivering a clean, responsive interface for industrial product navigation and corporate communications.
+For "DeAgostini" - Publishing.
+
+Contributed to the development of deagostini.com/it, focusing on frontend implementation with Silverlight, HTML, and CSS, supporting interactive media content and digital catalog browsing.
+
+
+Full Stack Developer, Spazio IRIS
+Milan |October 2013 - December 2013
+Designed and implemented the website http://www.spazioiris.it, collecting ideas and feedbacks directly from the founding members.
+Utilizing interactive forms the website offers the possibility to users to book the participation at seminars and private meetings with psychologist.
+Used Access database, ASP.Net and VB.Net 4.0 for build custom APIs, and JavascriptMVC framework, Css, Bootstrap 2 and Grunt for Frontend.
+
+
+Full Stack Developer, Capoeira Sou Eu
+Milan |May 2013 - August 2013
+Designed and implemented the website http://www.capoeirasoueu.it for sport association, collecting ideas and feedbacks directly from the owner.
+Used Access database, ASP.Net and VB.Net 4.0 for build custom APIs, and JavascriptMVC framework, Css, Bootstrap 2 and Grunt for Frontend.
+
+
+Full Stack Developer, Spazio Baiard
+Sondrio |January 2013 - February 2013
+Designed and implemented the website http://www.baiard.it for yoga association, collecting ideas and feedbacks directly from the owner.
+Used Access database, ASP.Net and VB.Net 4.0 for build custom APIs, and JQuery, Css, Bootstrap 2 and Grunt for Frontend.
+
+
+Web Designer, Team Consultance
+Milan |November 2012 - February 2013
+For " HP / Fastweb S.p.A. Italia ": Researched and edited photos for the articles presented in the daily online newspaper. Edited images for advertisements.
+Used Adobe Photoshop and Illustrator.
+
+
+Full Stack Developer, Loja Brasil
+Milan |October 2012 - December 2012
+Designed and implemented the website http://www.lojabrasil.it for physical shop of Brazilian products, collecting ideas and feedbacks directly from the owner.
+Used MySQL database, PHP for customize APIs, and the CMS PrestaShop.com, and Css for Frontend.
+
+
+Frontend Developer, Accenture Italia
+Milan |November 2011 - October 2012
+For " Philip Morris International ": As part of a small team, developed e-learning portal. Used Flash and Articulate Storyline.
+For " Fiat Group Automobiles S.p.A. ": As part of a large team, developed the company public website https://www.fiat.it/. Used Html, Css, Ajax and JQuery.
+For " Ducati Motor Holding S.p.A. ": As part of a small team, developed a functional prototype for the new mobile application of the company. Used Html, Css, Ajax, JQuery and JQuery Mobile.
+For " MediaShopping S.p.A. ": As part of a small team, developed the company public website https://www.mediashopping.it/. Used Html, Css and JQuery.
+For " Danone S.p.A. ": As part of a small team, developed the company public website https://www.vividanone.it/. Used Html, Css, Javascript and Liferay.
+For " Vodafone Italia ": As part of a small team, developed a functional prototype for the new mobile application of the company. Used Html, Css, Ajax, JQuery and JQuery Mobile.
+
+
+Software Developer, Gruppo Sicis
+Milan, Brescia |October 2009 - October 2011
+For " Mf Honyvem ": As part of a large team, developed management software for financial marketing company. Used Access, SqlServer and AS400 databases, VB6, ASP, Html, Css and Javascript.
+For " Class Editore ": As part of a small team, developed management software for forecast tv channel. Used Oracle database, C#, ASP.Net, Html, XML, Css, Ajax and Javascript.
+For " Elsevier Srl ": As part of a small team, developed management software for pharmaceutical company. Used Oracle database, ASP, Html, XML, Css, Ajax and Javascript.
+
+
+Software Developer, JetPark
+Milan |April 2011 - September 2011
+Developed management software for airport parking company.
+Used Oracle and MySql databases, VB.Net, PHP, Asp.Net, Html, Css and Javascript.
+
+
+Help Desk Technician and Database Manager, TUV Rheinland Italia S.p.A.
+Pogliano Milanese |June 2009 - October 2009
+Help desk of first level operating on HP machines with Windows OS.
+Build and managed company database. Used Lotus Notes database.
+
+
+Software Developer, Team Netuse
+Garbagnate Milanese |September 2008 - June 2009
+Participating to a Staging program, attended technical lessons and developed generic management software. Used Access and SqlServer databases, VB.Net, VB6, ASP, Html, Css and Javascript.
+
+
+Help Desk Technician, Emc2
+Lainate |July 2008 - September 2008
+For " OM Carrelli Elevatori ": Help desk of first level operating on various machines with Windows OS.
