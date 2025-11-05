@@ -75,4 +75,9 @@ struct SessionStatusPacket {
   GameSessionStatus status;
 };
 
+struct GameModeLitTargetRequestPacket {
+  uint8_t opcode;     // Should be OPCODE_GAMEMODE_LITTARGET
+  uint8_t indexInEntity;
+};
+
 #endif

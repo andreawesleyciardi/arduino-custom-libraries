@@ -23,6 +23,7 @@
 #define OPCODE_TARGET_SESSION_INFO	 0x31
 #define OPCODE_TARGET_DISABLE 		 0x34
 #define OPCODE_SHOW_TARGET_COLOR	 0x35
+#define OPCODE_GAMEMODE_LITTARGET	 0x36
 
 // Target-originated events (0x40–0x4F)
 #define OPCODE_HIT_REQUEST           0x40
