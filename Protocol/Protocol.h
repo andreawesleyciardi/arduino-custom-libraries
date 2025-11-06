@@ -23,6 +23,10 @@ struct PairingResponsePacket {
   uint8_t colorIndex;
 };
 
+struct HubPairingRequestPacket {
+  uint8_t opcode;       // Should be OPCODE_PAIRING_POLL
+};
+
 // Verification Structures
 struct VerificationRequestPacket {
   uint8_t opcode;   // Should be OPCODE_VERIFICATION_REQUEST

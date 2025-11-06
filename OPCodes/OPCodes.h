@@ -8,6 +8,7 @@
 #define OPCODE_VERIFICATION_RESPONSE 0x04
 #define OPCODE_HEARTBEAT             0x05
 #define OPCODE_BLINK_COMMAND         0x06
+#define OPCODE_PAIRING_POLL			 0x07
 
 // Score Updates (0x10–0x1F)
 #define OPCODE_SCORE_UPDATE          0x10

@@ -21,8 +21,8 @@ void Battery::check(void (*feedback)(long batteryValue, bool wasAutomaticCheck),
   if (feedback) {
     feedback(batteryValue, wasAutomaticCheck);
   }
-  Serial.print(F("🔋 Battery level: "));
-  Serial.println(batteryValue);
+  // Serial.print(F("🔋 Battery level: "));
+  // Serial.println(batteryValue);
 }
 
 void Battery::autoCheck(void (*feedback)(long batteryValue, bool wasAutomaticCheck)) {
