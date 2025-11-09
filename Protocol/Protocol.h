@@ -6,6 +6,12 @@
 #include <OPCodes.h>
 #include <Statuses.h>
 
+enum class OnPipe {
+  pairingPipe,
+  pairingPollPipe,
+  targetPipe
+};
+
 struct PacketHeader {
   uint8_t opcode;
 };

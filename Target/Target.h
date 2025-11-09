@@ -22,8 +22,8 @@ inline String targetTypeToString(TargetType type) {
 }
 
 static const uint8_t TargetColorIndexesPalette[] = {
-  static_cast<uint8_t>(ColorPalette::getIndexByName("Fucsia")),
-  static_cast<uint8_t>(ColorPalette::getIndexByName("Seafoam")),
+  static_cast<uint8_t>(ColorPalette::getIndexByName("Lime")),
+  static_cast<uint8_t>(ColorPalette::getIndexByName("Purple")),
   static_cast<uint8_t>(ColorPalette::getIndexByName("Red")),
   static_cast<uint8_t>(ColorPalette::getIndexByName("Lime")),
   static_cast<uint8_t>(ColorPalette::getIndexByName("Magenta")),
