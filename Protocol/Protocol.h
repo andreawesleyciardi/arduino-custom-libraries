@@ -25,12 +25,13 @@ struct PairingRequestPacket {
 
 struct PairingResponsePacket {
   uint8_t opcode;       // Should be OPCODE_PAIRING_RESPONSE
+  uint32_t token;
   uint8_t assignedID;
   uint8_t colorIndex;
 };
 
-struct HubPairingRequestPacket {
-  uint8_t opcode;       // Should be OPCODE_PAIRING_POLL
+struct PairingSollecitationPacket {
+  uint8_t opcode;       // Should be OPCODE_PAIRING_SOLLECITATION
 };
 
 // Verification Structures
@@ -63,8 +64,8 @@ struct TargetSessionInfoRequestPacket {
 };
 #pragma pack(pop)
 
-struct ShowTargetColorRequestPacket {
-  uint8_t opcode;   // should be OPCODE_SHOW_TARGET_COLOR
+struct IdentifyTargetRequestPacket {
+  uint8_t opcode;   // should be OPCODE_IDENTIFY_TARGET
   bool switchOn;
 };
 

@@ -1,0 +1,50 @@
+✅  Success, confirmed, completed  
+☑️  Checked, verified  
+🟢  Active, online  
+🔵  Listening, idle  
+🟡  Waiting, pending  
+🔴  Error, offline, blocked  
+❌  Failure, invalid, rejected  
+⚠️  Warning, caution  
+ℹ️  Info, neutral message  
+
+🧠  Decision logic, reasoning  
+🔄  Retry, loop, refresh  
+🔁  Reuse, repeat, reassign  
+🔀  Switching, routing, pipe change  
+🔃  Sync, update, handshake  
+
+📡  Radio listening or transmitting  
+📤  Sending data  
+📥  Receiving data  
+🛰️  Broadcast, poll, pairing signal  
+📶  Signal strength or connectivity  
+
+🔧  Setup, initialization, config  
+🛠️  Maintenance, diagnostics  
+🧰  Toolbox, registry, internal state  
+🗂️  EEPROM, memory, storage  
+🧪  Test, debug, experimental  
+
+🔐  Pairing, authentication  
+🔒  Locked, secure  
+🆔  ID assignment  
+🧾  Token, credentials  
+🧍  Target identity
+🧬	Pipe
+
+🎨  Color index, LED feedback  
+🌈  Color assignment  
+🟩 🟥 🟦  Specific color indicators  
+
+⏳  Waiting, timeout  
+⏱️  Timing, delay  
+🕒  Timestamp, log marker
+
+🚀  Start, launch, begin  
+🔧  Booting, initializing  
+🟢  System online  
+🆕  Fresh start, new session  
+🎬  Starting sequence
+📜  OPcode
+👆  Button pressed
