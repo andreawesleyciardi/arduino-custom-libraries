@@ -35,14 +35,15 @@ static const uint8_t TargetColorIndexesPalette[] = {
 };
 
 struct TargetInfo {
-  uint8_t id;
-  uint32_t token;
+  uint8_t id = 0xFF;
+  uint32_t token = 0;
   uint8_t pipe[6];
   uint8_t colorIndex = 0xFF;
   uint8_t entityColorIndex = 0xFF;
   // bool active = true;
   bool enabled = true;
-  uint8_t indexInEntity;
+  uint8_t indexInEntity = -1;
+  unsigned long unreachableFrom = 0;
 
   bool isValid() const {
     // return active && id != 0xFF;

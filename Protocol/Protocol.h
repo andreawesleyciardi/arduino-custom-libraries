@@ -8,7 +8,6 @@
 
 enum class OnPipe {
   pairingPipe,
-  pairingPollPipe,
   targetPipe
 };
 
@@ -46,8 +45,13 @@ struct VerificationResponsePacket {
 };
 
 
-struct HeartbeatPacket {
-  uint8_t opcode;   // Should be OPCODE_HEARTBEAT
+struct HeartbeatRequestPacket {
+  uint8_t opcode;   // Should be OPCODE_HEARTBEAT_REQUEST
+};
+
+struct HeartbeatResponsePacket {
+  uint8_t opcode;   // Should be OPCODE_HEARTBEAT_RESPONSE
+  uint8_t id;
 };
 
 struct BlinkCommandPacket {
