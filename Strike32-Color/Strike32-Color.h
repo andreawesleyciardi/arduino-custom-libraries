@@ -18,7 +18,7 @@ class Color {
 // Predefined color wheel
 extern const Color ColorWheel[];
 
-#define COLOR_WHEEL_SIZE 13
+#define COLOR_WHEEL_SIZE 12
 
 // Utility functions
 int getColorWheelIndexByName(String _name);

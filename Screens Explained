@@ -1,0 +1,60 @@
+- Home screen:
+I want to show a message (for now just "Welcome").
+Button left label "Help": navigates to the "Help screen".
+Button encoder: navigates to "Setting screen".
+Button right label "Start": navigates to the "Pairing screen".
+
+- Help screen:
+Shows available commands or tips.
+Button left: not needed.
+Button right label "Home": navigates to the "Home screen".
+
+- Pairing screen:
+I want to show the message "Pairing…" if the pairing with the targets is on going (if possible show the text with some animation like pulse for example for make clear to the user that the Hub is working and not blocked).
+When the pairing is finish I want to show "[x] Targets were found" and [x] is the number of paired targets.
+Button left label "Targets": navigates to the "Target List screen".
+Button right label "Play": navigates to the "GameMode List screen".
+
+- Target List screen:
+I see a list of the targets paired (Target 1, Target 2, Target 3…) and next to each one their ID.
+With the encoder I want to be able to scroll the list vertically with a pointer that shows a currently selected item.
+Button left label "Re-Pair": navigates to the "Pairing screen" and tries to pair again with the targets.
+Button encoder: sends a blink command (OPCODE_BLINK_COMMAND) to the currently selected target. Would be nice if the target replies to the Blink command sending to the hub it's battery level so can be shown next to the ID.
+Button right label "Play": navigates to the "GameMode List screen".
+
+- GameMode List screen:
+I want to show a list of the game modes (remember the list we made time ago).
+With the encoder I want to be able to scroll the list vertically with a pointer that shows a currently selected item.
+Based on how many targets are paired the list of game modes changes (for example the user can't choose "battle" if only one target is paired).
+Button left label "Exit": navigates to the "Home screen".
+Button right label "Select" or "Options": if the game mode selected has no extra options the label is "Select" and navigates to the "GameMode Details", if the game mode selected needs more options to be selected the label is "Options" and navigates to "GameMode Options screen".
+
+- GameMode Options screen:
+Some game modes will have extra options.
+Some examples:
+when the game mode is "To number" the user will be able to, starting from a default number, change the value of the number of hits that has to reach for complete the game but also .
+when the game mode is "" 
+Button left label "Back": navigates to the "GameModeList screen".
+Button encoder: pressed first time focuses on a field so that the value can be changed with the scrolling of the encoder, next press the focus is removed and the scrolling of the encoder is used again for scroll vertically the list of fields.
+Button right label "Select": navigates to the "GameMode Details screen with the values of the options in memory".
+
+- GameMode Details screen:
+Shows a text with the description of the game mode.
+Button left label "Back": navigates to the "GameModeList screen".
+Button right label "Start": navigates to the "Playing screen".
+
+- Playing screen:
+Shows text based on how the game is going (we will write a list of possible texts to show based on events during the game).
+Button left label "Stop": navigates to the "Confirmation screen".
+Button encoder label "Pause" when status is "playing" or "Continue" when status is "paused": put in "pause" or "continues" the game (when in pause stops temporarly the timer if is on going and/or the counting of the hits).
+Button right label "Restart": restart the game with the same game mode previously selected.
+
+- Confirmation screen:
+A message with a question is shown.
+Button left label "Cancel": negates whatever question is shown to the user. Navigates to screen to define based on the question.
+Button right label "Confirm": validates whatever question is shown to the user. Navigates to screen to define based on the question.
+
+- Error screen:
+Show error messages or failed actions.
+Button left: to define based on the error.
+Button right: to define based on the error.

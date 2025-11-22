@@ -1,0 +1,46 @@
+pairedTargetsCount = number of currently paired targets
+minTargetNumber = entityCount
+
+1 player: pairedTargetsCount
+
+2 players:
+	single player mode 					-> (pairedTargetsCount - (pairedTargetsCount % 2)) / 2
+	same team mode 						-> pairedTargetsCount
+
+3 players:
+	single player mode 					-> (pairedTargetsCount - (pairedTargetsCount % 3)) / 3
+	same team mode 						-> pairedTargetsCount
+
+4 players:
+	single player mode 					-> (pairedTargetsCount - (pairedTargetsCount % 4)) / 4
+	same team mode 						-> pairedTargetsCount
+	multiple teams mode (max 2 teams) 	-> (pairedTargetsCount - (pairedTargetsCount % 4)) / 2
+
+5 players:
+	single player mode 					-> (pairedTargetsCount - (pairedTargetsCount % 5)) / 5
+	same team mode 						-> pairedTargetsCount
+
+6 players:
+	single player mode 					-> (pairedTargetsCount - (pairedTargetsCount % 6)) / 6
+	same team mode 						-> pairedTargetsCount
+	multiple teams mode (max 3 teams) 	-> (pairedTargetsCount - (pairedTargetsCount % 6)) / 2 (3 teams)
+										-> (pairedTargetsCount - (pairedTargetsCount % 6)) / 3 (2 teams)
+7 players:
+	single player mode 					-> (pairedTargetsCount - (pairedTargetsCount % 7)) / 7
+	same team mode 						-> pairedTargetsCount
+
+8 players:
+	single player mode 					-> (pairedTargetsCount - (pairedTargetsCount % 8)) / 8
+	same team mode 						-> pairedTargetsCount
+	multiple teams mode (max 4 teams) 	-> (pairedTargetsCount - (pairedTargetsCount % 8)) / 2 (4 teams)
+										-> (pairedTargetsCount - (pairedTargetsCount % 8)) / 4 (2 teams)
+9 players:
+	single player mode 					-> (pairedTargetsCount - (pairedTargetsCount % 9)) / 9
+	same team mode 						-> pairedTargetsCount
+	multiple teams mode (max 3 teams) 	-> (pairedTargetsCount - (pairedTargetsCount % 9)) / 3 (3 teams)
+
+10 players:
+	single player mode 					-> (pairedTargetsCount - (pairedTargetsCount % 10)) / 10
+	same team mode 						-> pairedTargetsCount
+	multiple teams mode (max 5 teams) 	-> (pairedTargetsCount - (pairedTargetsCount % 10)) / 2 (5 teams
+										-> (pairedTargetsCount - (pairedTargetsCount % 10)) / 5 (2 teams)

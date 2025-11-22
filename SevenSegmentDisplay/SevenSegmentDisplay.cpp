@@ -78,7 +78,7 @@ void SevenSegmentDisplay::showScore(uint8_t score) {
 }
 
 void SevenSegmentDisplay::updateScore(uint8_t score, bool withAnimation) {
-  Serial.println("UPDATESCORE");
+  // Serial.println("UPDATESCORE");
   if (withAnimation == true) {
     // Flash score digits before stabilizing
     for (int i = 0; i < 3; i++) {
