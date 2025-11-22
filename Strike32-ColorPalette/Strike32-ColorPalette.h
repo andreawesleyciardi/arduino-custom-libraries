@@ -1,7 +1,7 @@
 #ifndef COLOR_PALETTE_H
 #define COLOR_PALETTE_H
 
-#include "Color.h"
+#include "Strike32-Color.h"
 
 class ColorPalette {
 public:

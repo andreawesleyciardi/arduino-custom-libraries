@@ -24,7 +24,7 @@ const Color& ColorPalette::getByIndex(uint8_t index) {
 
 const Color& ColorPalette::getByName(const String& name) {
   int index = getIndexByName(name);
-  return index >= 0 ? palette[index] : ColorOff;
+  return (index != 0xFF) ? palette[index] : ColorOff;
 }
 
 uint8_t ColorPalette::getIndexByName(const String& name) {
@@ -33,6 +33,7 @@ uint8_t ColorPalette::getIndexByName(const String& name) {
       return i;
     }
   }
+  return 0xFF;
 }
 
 uint8_t ColorPalette::size() {
