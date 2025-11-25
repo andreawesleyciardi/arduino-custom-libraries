@@ -2,8 +2,8 @@
 #define HUB_H
 
 #include <Arduino.h>
-#include <Color.h>
-#include <ColorPalette.h>
+#include "Color.h"
+#include "ColorPalette.h"
 
 static const uint8_t HubColorIndexesPalette[] = {
   static_cast<uint8_t>(ColorPalette::getIndexByName("Fucsia")),

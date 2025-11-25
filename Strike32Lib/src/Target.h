@@ -2,8 +2,9 @@
 #define TARGET_H
 
 #include <Arduino.h>
-#include <Color.h>
-#include <ColorPalette.h>
+
+#include "Color.h"
+#include "ColorPalette.h"
 
 enum class TargetType : uint8_t {
   Unknown        = 0x00,

@@ -27,6 +27,18 @@ void RGBLed::setup(bool startOn) {
   }
 }
 
+void RGBLed::applyFeedback(const Feedback& fb) {
+  if (fb.effect.name == "blink") {
+    blink(fb.colorName, fb.effect.delayTime, fb.effect.times);
+  } else if (fb.effect.name == "pulse") {
+    startPulse(fb.colorName, 20, fb.effect.delayTime);
+  } else if (fb.effect.name == "chase") {
+    // implement chase effect here if needed
+  } else {
+    on(fb.colorName); // fallback: just turn on the color
+  }
+}
+
 void RGBLed::on(String colorName, bool toRemember) {
   if (colorName == "") colorName = primaryColorName;
   if (toRemember) primaryColorName = colorName;

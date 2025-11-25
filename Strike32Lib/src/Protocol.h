@@ -1,10 +1,10 @@
 #ifndef PROTOCOL_H
 #define PROTOCOL_H
 
-#include <Target.h>
-#include <Score.h>
-#include <OPCodes.h>
-#include <Statuses.h>
+#include "Target.h"
+#include "Score.h"
+#include "OPCodes.h"
+#include "Status.h"
 
 enum class OnPipe {
   pairingPipe,
