@@ -1,4 +1,4 @@
-#include "Strike32-ColorPalette.h"
+#include "ColorPalette.h"
 
 const Color ColorPalette::palette[] = {
   Color(255, 0, 0, "Red"),

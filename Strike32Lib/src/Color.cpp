@@ -1,4 +1,4 @@
-#include "Strike32-Color.h"
+#include "Color.h"
 
 // Default constructor
 Color::Color() {

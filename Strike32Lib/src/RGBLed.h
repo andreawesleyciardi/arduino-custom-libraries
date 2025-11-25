@@ -4,7 +4,7 @@
 #include <Arduino.h>
 #include <Adafruit_NeoPixel.h>
 
-#include <Strike32-Color.h>
+#include <Color.h>
 
 enum class PulseState { Idle, Rising, Falling };
 
@@ -20,9 +20,9 @@ public:
 
   void on(String colorName = "", bool toRemember = false);
   void off();
-  void blink(String colorName = "", uint8_t delayTime = 200, uint8_t times = 3);
+  void blink(String colorName = "", uint16_t delayTime = 200, uint8_t times = 3);
 
-  void startPulse(String colorName = "", uint8_t steps = 20, uint16_t delayMs = 20);
+  void startPulse(String colorName = "", uint8_t steps = 20, uint16_t delayTime = 20);
   void stopPulse();
   void updatePulse();
 

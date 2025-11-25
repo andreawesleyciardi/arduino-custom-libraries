@@ -1,4 +1,4 @@
-#include "Strike32-RGBLed.h"
+#include "RGBLed.h"
 
 // Discrete LED constructor
 RGBLed::RGBLed(uint8_t _redPin, uint8_t _greenPin, uint8_t _bluePin) {
@@ -60,7 +60,7 @@ void RGBLed::off() {
   isOn = false;
 }
 
-void RGBLed::blink(String colorName, uint8_t delayTime, uint8_t times) {
+void RGBLed::blink(String colorName, uint16_t delayTime, uint8_t times) {
   if (colorName == "") colorName = primaryColorName;
   for (uint8_t i = 0; i < times; i++) {
     on(colorName);
@@ -74,11 +74,11 @@ void RGBLed::setBrightness(uint8_t _brightness) {
   brightness = constrain(_brightness, 0, 255);
 }
 
-void RGBLed::startPulse(String colorName, uint8_t steps, uint16_t delayMs) {
+void RGBLed::startPulse(String colorName, uint8_t steps, uint16_t delayTime) {
   if (colorName == "") colorName = primaryColorName;
   pulseColor = colorName;
   pulseSteps = steps;
-  pulseDelay = delayMs;
+  pulseDelay = delayTime;
   pulseStep = 0;
   pulseState = PulseState::Rising;
   pulseActive = true;
