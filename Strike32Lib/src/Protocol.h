@@ -6,7 +6,7 @@
 #include "OPCodes.h"
 #include "Status.h"
 
-enum class OnPipe {
+enum class OnPipe {       // Probably to remove
   pairingPipe,
   targetPipe
 };
@@ -16,18 +16,18 @@ struct PacketHeader {
 };
 
 // Pairing Structures
-struct PairingSolicitationPacket {
+struct PairingSolicitationPacket {                            // Hub --> Target
   uint8_t opcode;       // OPCODE_PAIRING_SOLICITATION
   uint8_t hubMac[6];
 };
 
-struct PairingRequestPacket {
+struct PairingRequestPacket {                                 // Target --> Hub
   uint8_t opcode;       // OPCODE_PAIRING_REQUEST
   uint8_t targetMac[6];
   TargetType type;
 };
 
-struct PairingResponsePacket {
+struct PairingResponsePacket {                                // Hub --> Target
   uint8_t opcode;       // OPCODE_PAIRING_RESPONSE
   uint8_t hubMac[6];    // Hub’s MAC address (so Target knows who it belongs to)
   uint8_t targetMac[6];

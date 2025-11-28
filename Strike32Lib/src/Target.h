@@ -35,7 +35,7 @@ static const uint8_t TargetColorIndexesPalette[] = {
   static_cast<uint8_t>(ColorPalette::getIndexByName("Purple"))
 };
 
-struct TargetInfo {
+struct TargetInfos {
   uint8_t id = 0xFF;
   uint8_t mac[6];
   uint8_t hubMac[6];
@@ -53,6 +53,29 @@ struct TargetInfo {
     if (colorIndex >= sizeof(TargetColorIndexesPalette)) return "Unknown";
     Color color = ColorPalette::getByIndex(TargetColorIndexesPalette[colorIndex]);
     return color.name;
+  }
+
+  // 🆕 Helper for MAC printing
+  void printMac() const {
+    for (int i = 0; i < 6; i++) {
+      Serial.printf("%02X", mac[i]);
+      if (i < 5) Serial.print(":");
+    }
+  }
+
+  // 🆕 Helper to print all infos
+  void printInfos() const {
+    Serial.print(F("🎯 Target 🎯🎯🎯"));
+    Serial.print(F("🆔 ID: "));
+    Serial.println(id);
+
+    Serial.print(F("🌈 Color: "));
+    Serial.println(getColorName());
+
+    Serial.print(F("🪪 MAC: "));
+    printMac();
+    Serial.println(F("🎯🎯🎯🎯🎯🎯🎯"));
+    Serial.println();
   }
 };
 
